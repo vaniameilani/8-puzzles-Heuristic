@@ -19,6 +19,9 @@ Dalam program ini   :
 INITIAL STATE  = {2,8,3},{1,6,4},{7,0,5}
 GOAL STATE     = {1,2,3},{8,0,4},{7,6,5}
 angka 0 menandakan kotak kosong. 
+
+![puzzle8](https://user-images.githubusercontent.com/61219556/78860686-0012ca00-7a5d-11ea-857b-fde0da62b81c.PNG)
+
 Dalam pencariannya, program memiliki fungsi Different dimana untuk menghitung perbedaan letak angka pada Initial state dan Goal State tersebut. Selain itu, dihitung pula dengan kemungkinan-kemungkinan yang ada, seperti menghitung apabila angka 0 digeser keatas / ke kanan / ke kiri. Dari kemungkinan tersebut, maka angka 0 akan bergerak dengan jumlah perbedaan angka yang paling minimum pada puzzle. Proses akan berlanjut seperti itu hingga mencapai Goal State. 
 
 ```
@@ -51,4 +54,7 @@ int minimum (int u, int d, int l, int r){
 Fungsi untuk menentukan jumlah minimum dari perbedaan-perbedaan letak angka pada puzzle. 
 
 Untuk jumlah step dari initial state menuju goal state dalam program ini berjumlah 5 steps. 
+
+![puzzle82](https://user-images.githubusercontent.com/61219556/78860729-1a4ca800-7a5d-11ea-84db-91a19814cabd.PNG)
+
 ~
